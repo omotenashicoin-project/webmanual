@@ -1,0 +1,3 @@
+User-agent: *
+Sitemap: http://users-manual.org/sitemap.xml
+

@@ -1,0 +1,35 @@
+site_name: MTNS gourp user's manuals
+site_description: 'OmotenashiCoin Project User manual'
+site_author: 'Nakkie'
+nav:
+    - Home: index.md
+    - Wallet: 
+        - PC Wallet: pc_wallet.md
+        - Paper Wallet: paper_wallet.md
+        - Mobile Wallet: mobile_wallet.md
+        - Hardware Wallet Client : hd_client_wallet.md
+        - Hardware Wallet (Trezor) : hd_trezor_wallet.md
+        - Hardware Wallet (Ledger) : hd_ledger_wallet.md
+        - Hardware Wallet (Keepkey)) : hd_keepkey_wallet.md
+        - Card Wallet: card_wallet.md
+        - Wearable Wallet: wearable_wallet.md
+    - Masternode:
+        - VPS server Setup: vps_setup.md
+        - Masernode Setup: masternode_setup.md
+    - HardWare: 
+        - Trezor firmware: hardware_firmware_trezor.md
+        - Ledger firmware: hardware_firmware_ledger.md
+        - Keepkey firmware: hardware_firmware_keepkey.md
+        - Alert board: hardware_alertboad.md
+    - WebTools: 
+        - Blockexplorer: blockexplorer_trezor.md
+        - TestnetFaucet: testnet_faucet.md
+    - TermsofUse/Disclaimer: disclaimer.md
+    - About: about.md
+theme: readthedocs
+copyright: 'Copyright (c) OmotenashiCoin Project'
+markdown_extensions:
+    - toc:
+        permalink: "#"
+        baselevel: 2
+
